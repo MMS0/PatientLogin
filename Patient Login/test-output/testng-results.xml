@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Patient Login" duration-ms="99899" started-at="2020-11-21T16:07:03Z" finished-at="2020-11-21T16:08:43Z">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="27453" started-at="2020-11-21T16:07:03Z" finished-at="2020-11-21T16:07:31Z">
+      <class name="homePageTestcase.TC_PT_HM_1_SignInPage">
+        <test-method status="PASS" signature="browser()[pri:0, instance:homePageTestcase.TC_PT_HM_1_SignInPage@51efea79]" name="browser" is-config="true" duration-ms="22320" started-at="2020-11-21T21:37:03Z" finished-at="2020-11-21T21:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:homePageTestcase.TC_PT_HM_1_SignInPage@51efea79]" name="SignIn" duration-ms="5089" started-at="2020-11-21T21:37:25Z" finished-at="2020-11-21T21:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+      </class> <!-- homePageTestcase.TC_PT_HM_1_SignInPage -->
+    </test> <!-- HomePage -->
+    <test name="List EHR" duration-ms="25993" started-at="2020-11-21T16:07:31Z" finished-at="2020-11-21T16:07:57Z">
+      <class name="homePageTestcase.TC_PT_HM_2and3_SignIn_EHR">
+        <test-method status="PASS" signature="browser()[pri:0, instance:homePageTestcase.TC_PT_HM_2and3_SignIn_EHR@5c7fa833]" name="browser" is-config="true" duration-ms="21539" started-at="2020-11-21T21:37:31Z" finished-at="2020-11-21T21:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:homePageTestcase.TC_PT_HM_2and3_SignIn_EHR@5c7fa833]" name="testcase2" duration-ms="4445" started-at="2020-11-21T21:37:52Z" finished-at="2020-11-21T21:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- homePageTestcase.TC_PT_HM_2and3_SignIn_EHR -->
+    </test> <!-- List EHR -->
+    <test name="Print EHR" duration-ms="46397" started-at="2020-11-21T16:07:57Z" finished-at="2020-11-21T16:08:43Z">
+      <class name="homePageTestcase.TC_PT_HM_4_Print">
+        <test-method status="PASS" signature="browser()[pri:0, instance:homePageTestcase.TC_PT_HM_4_Print@55f3ddb1]" name="browser" is-config="true" duration-ms="25558" started-at="2020-11-21T21:37:57Z" finished-at="2020-11-21T21:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="testcase4()[pri:0, instance:homePageTestcase.TC_PT_HM_4_Print@55f3ddb1]" name="testcase4" duration-ms="20818" started-at="2020-11-21T21:38:22Z" finished-at="2020-11-21T21:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+      </class> <!-- homePageTestcase.TC_PT_HM_4_Print -->
+    </test> <!-- Print EHR -->
+  </suite> <!-- Patient Login -->
+</testng-results>

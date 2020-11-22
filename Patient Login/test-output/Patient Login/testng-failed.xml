@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Patient Login]">
+  <test name="Print EHR(failed)">
+    <classes>
+      <class name="homePageTestcase.TC_PT_HM_4_Print">
+        <methods>
+          <include name="testcase4"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- homePageTestcase.TC_PT_HM_4_Print -->
+    </classes>
+  </test> <!-- Print EHR(failed) -->
+</suite> <!-- Failed suite [Patient Login] -->

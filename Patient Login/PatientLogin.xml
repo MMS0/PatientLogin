@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Patient Login">
+
+ <test name="HomePage">
+<classes>
+<class name="homePageTestcase.TC_PT_HM_1_SignInPage">
+</class>
+</classes>
+</test>
+
+<test name ="List EHR">
+<classes>
+<class name="homePageTestcase.TC_PT_HM_2and3_SignIn_EHR">
+</class>
+</classes>
+</test> 
+
+<test name="Print EHR">
+<classes>
+<class name="homePageTestcase.TC_PT_HM_4_Print">
+</class>
+</classes>
+</test>
+
+</suite>
